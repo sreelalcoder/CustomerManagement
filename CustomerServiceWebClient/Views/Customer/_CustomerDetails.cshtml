@@ -1,0 +1,13 @@
+﻿@using CustomerServiceWebClient.Models.DTOs
+@model CustomerDto
+@{
+    // Layout = "_Layout";
+}
+@* <a href="@Url.Action("Index", "Customer")" class="btn btn-secondary">Back</a> *@
+<h2>Customer Details</h2>
+<div>
+    <p>Name: @Model.Name</p>
+    <p>Email: @Model.Email</p>
+    <p>Phone Number: @Model.PhoneNumber</p>
+</div>
+

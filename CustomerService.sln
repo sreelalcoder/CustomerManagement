@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerServiceWebClient", "CustomerServiceWebClient\CustomerServiceWebClient.csproj", "{DBAFD509-DC6F-4E91-9D11-CB84354458B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerServiceWebApi", "CustomerServiceWebApi\CustomerServiceWebApi.csproj", "{9DBFD202-23EB-4A15-8047-0916853A9CDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBAFD509-DC6F-4E91-9D11-CB84354458B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAFD509-DC6F-4E91-9D11-CB84354458B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAFD509-DC6F-4E91-9D11-CB84354458B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAFD509-DC6F-4E91-9D11-CB84354458B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBFD202-23EB-4A15-8047-0916853A9CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBFD202-23EB-4A15-8047-0916853A9CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBFD202-23EB-4A15-8047-0916853A9CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBFD202-23EB-4A15-8047-0916853A9CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B226AF38-B361-4188-A344-8ECF11D1B144}
+	EndGlobalSection
+EndGlobal
